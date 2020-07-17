@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org/">
+<head>
+    <meta charset="UTF-8">
+    <title>User Choices</title>
+</head>
+<body>
+<form action="success" method="post">
+    <table border="0" cellpadding="0">
+        <tr>
+            <td><label>Name:
+                <input type="text" name="name"></label></td>
+        </tr>
+        <tr>
+            <td><label>My favorite language:
+                <select name="firstLanguage">
+                    <option value="Java">Java</option>
+                    <option value="JavaScript">JavaScript</option>
+                    <option value="C++">C++</option>
+                </select></label></td>
+        </tr>
+        <tr>
+            <td><label>My second favorite language:
+                <select name="secondLanguage">
+                    <option value="Java">Java</option>
+                    <option value="JavaScript">JavaScript</option>
+                    <option value="C++">C++</option>
+                </select></label></td>
+        </tr>
+        <tr>
+            <td><label>My third favorite language:
+                <select name="thirdLanguage">
+                    <option value="Java">Java</option>
+                    <option value="JavaScript">JavaScript</option>
+                    <option value="C++">C++</option>
+                </select></label></td>
+        </tr>
+        <tr>
+            <td><input type='submit' value='Submit'></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
